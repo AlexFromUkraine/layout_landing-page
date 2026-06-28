@@ -1,0 +1,33 @@
+:root {
+  --main-font: 'Space Grotesk', sans-serif;
+  --thin-font: 'Space Mono', sans-serif;
+  --main-color: #292929;
+  --grey-color: #7e7e83;
+}
+
+.page {
+  font-family: var(--main-font);
+  color: var(--main-color);
+  font-size: 16px;
+  line-height: 140%;
+  scroll-behavior: smooth;
+}
+
+.page__body {
+  margin: 0;
+}
+
+.page__menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.page__menu:target {
+  opacity: 1;
+  pointer-events: all;
+}
