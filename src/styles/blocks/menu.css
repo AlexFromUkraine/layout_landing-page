@@ -43,7 +43,7 @@
   letter-spacing: 2px;
 }
 
-.menu__call-to-order {
+.menu__link--call-to-order {
   text-transform: uppercase;
   width: fit-content;
   padding-bottom: 4px;
